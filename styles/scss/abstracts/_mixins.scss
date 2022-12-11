@@ -1,0 +1,26 @@
+@use "../abstracts/variables" as var;
+
+@mixin devices($device) {
+    @if $device == mobile {
+        @media screen and (min-width: var.$mobile-breakpoint) {
+            @content;
+        }
+    }
+
+    @else if $device == tablet {
+        @media screen and (min-width: var.$tablet-breakpoint) {
+            @content;
+        }
+    }
+
+    @else if $device == laptop {
+        @media screen and (min-width: var.$laptop-breakpoint) {
+            @content;
+        }
+    }
+
+    @else {
+        @error "Undefined breakpoint #{$breakpoint}"
+    }
+}
+
