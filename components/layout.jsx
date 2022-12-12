@@ -10,7 +10,7 @@ function Layout({children, title="ECars"}) {
 
     <div className={`${styles.root}`}>
         <Head>
-        <title>{`${title} - Elon Saluja's Company`}</title>
+        <title>{`${title} - Pascal`}</title>
         <link rel="icon" href="./favicon.ico" />
         </Head>
         <NavBar />
