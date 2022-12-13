@@ -1,0 +1,86 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mx;
+
+@keyframes arrow {
+    
+    0% {
+        padding-top: 4rem;
+    }
+
+    25% {
+        padding-top: 3rem;
+    }
+
+    50% {
+        padding-top: 2rem;
+    }
+
+    100% {
+        padding-top: 1rem;
+    }
+}
+
+.hero {
+    height: 95dvh;
+    background-color: scale-color($color: var.$primary-color, $lightness: 50%);
+    background-image: url('/images/video_AdobeExpress.gif');
+    background-blend-mode: multiply;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    margin-top: 2rem;
+
+    &__content {
+        position: relative;
+        text-align: left;
+        color: white;
+        padding-top: 15%;
+        text-shadow: 0px -2px 9px rgba(0,0,0,0.84);
+        padding-left: 0.5rem;
+
+        @include mx.devices(mobile) {
+            padding-top: 30%;
+            padding-right: 2vw;
+        }
+
+        @include mx.devices(tablet) {
+            padding-top: 15%;
+            padding-left: 2rem;
+            padding-right: 40vw;
+        }
+
+        @include mx.devices(laptop) {
+            padding-top: 15%;
+            padding-left: 2rem;
+            padding-right: 40vw;
+        }
+
+        &__title {
+            font-size: 4rem;
+        }
+
+        &__sub {
+            margin-top: -3%;
+            font-size: 1rem;
+        }
+    }
+
+    &__arrow {
+        color: white;
+        animation: arrow 2s ease-in-out infinite alternate;
+        padding: 5rem 0 1rem 40vw;
+
+        @include mx.devices(mobile) {
+            padding: 5rem 0 1rem 40vw;
+        }
+
+        @include mx.devices(tablet) {
+            padding: 2rem 0 1rem 45vw;
+        }        
+
+        @include mx.devices(laptop) {
+            padding: 2rem 0 1rem 50vw;
+        }
+    }
+}

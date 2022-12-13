@@ -6,9 +6,14 @@
 @use "./scss/abstracts/mixins";
 
 // Components
+@use "./scss/components/hero";
+@use "./scss/components/button";
+@use './scss/components/icons';
+@use './scss/components/model';
 
 // Layout
 @use "./scss/layout/header";
+@use './scss/layout/footer';
 
 // Pages
 

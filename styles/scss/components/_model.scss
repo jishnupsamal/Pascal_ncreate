@@ -1,0 +1,16 @@
+@use '../abstracts/variables' as var;
+@use '../abstracts/mixins' as mx;
+
+.model {
+    width: 97vw;
+    height: 95vh;
+    margin: 2rem 0 3rem .5rem;
+    border: 0.1rem solid scale-color($color: black, $lightness: 70%);
+    border-radius: 1rem;
+
+
+    & model-viewer {
+        height: inherit;
+        width: inherit;
+    }
+}

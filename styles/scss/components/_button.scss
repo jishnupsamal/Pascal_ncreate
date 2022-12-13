@@ -1,0 +1,20 @@
+@use '../abstracts/variables' as var;
+@use '../abstracts/mixins' as mx;
+
+.button {
+
+    &__transparent {
+        background-color: transparent;
+        color: var.$color2;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1rem;
+        border: 0.1rem solid var.$tertiary-color;
+        border-radius: 0.2rem;
+
+        &:hover {
+            background-color: var.$secondary-color;
+            transition: background-color 1s ease-in-out, box-shadow 2s ease-in-out;
+            box-shadow: 23px 21px 92px 21px rgba(0,0,0,1);
+        }
+    }
+}
