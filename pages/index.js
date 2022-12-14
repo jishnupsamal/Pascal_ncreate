@@ -16,7 +16,8 @@ export default function Home() {
         <Hero title="Pascal" />
         <div id='main'></div>
         <Section title="Stylish and Elegant" align='left' img="/images/greycar.jpg">
-          Stunning and attractive look
+          Stunning and attractive look. {' '} Designed by the World's Greatest Engineers for {' '}
+          the people of the world.
         </Section>
 
         <Model
@@ -28,7 +29,8 @@ export default function Home() {
         />
 
         <Section title="Environment Friendly" align='right' img="/images/bluecar.jpg">
-          100% electric
+          100% electric. {" "}
+          Zero Carbon Emissions.
         </Section>
       </div>
     </Layout>
