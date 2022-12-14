@@ -1,6 +1,9 @@
 // import * as styles from "../styles/main.module.scss";
 import "../styles/globals.css";
 import Script from "next/script";
+import "@fontsource/luxurious-roman"
+import "@fontsource/abril-fatface"
+import "@fontsource/patua-one"
 
 function MyApp({ Component, pageProps }) {
   return (

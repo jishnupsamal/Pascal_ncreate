@@ -33,7 +33,7 @@ const Hero = ({ title }) => {
 }
 
 Hero.propTypes = {
-    title: PropTypes.string.required,
+    title: PropTypes.string.isRequired,
 }
 
 export default Hero

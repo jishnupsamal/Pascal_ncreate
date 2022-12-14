@@ -2,7 +2,6 @@
 @use '../abstracts/mixins' as mx;
 
 .button {
-
     &__transparent {
         background-color: transparent;
         color: var.$color2;

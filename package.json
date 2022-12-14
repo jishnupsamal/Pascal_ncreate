@@ -10,6 +10,9 @@
     "sass": "sass styles/main.module.scss --update styles/main.module.css -c"
   },
   "dependencies": {
+    "@fontsource/abril-fatface": "^4.5.9",
+    "@fontsource/luxurious-roman": "^4.5.10",
+    "@fontsource/patua-one": "^4.5.9",
     "browserslist": "^4.21.4",
     "eslint": "8.29.0",
     "eslint-config-next": "13.0.6",

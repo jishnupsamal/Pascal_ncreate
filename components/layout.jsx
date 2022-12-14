@@ -2,7 +2,6 @@ import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import PropTypes from 'prop-types'
-import * as styles from '../styles/main.module.scss'
 import NavBar from './NavBar'
 import Footer from "../components/Footer";
 
