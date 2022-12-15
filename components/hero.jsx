@@ -12,8 +12,7 @@ const Hero = ({ title }) => {
                     {title}
                 </h1>
                 <p className={`${styles.hero__content__sub}`}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ducimus incidunt vel asperiores id veritatis, voluptatum neque at sequi cupiditate.
+                    Precision and Speed Reimagined
                 </p>
                 <a href="#main">
                     <button
