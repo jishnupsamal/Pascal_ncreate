@@ -101,7 +101,19 @@
       text-align: center;
       display: grid;
       column-gap: 5rem;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(1, 1fr);
+
+      @include mx.devices(mobile) {
+        grid-template-columns: repeat(1, 1fr);
+
+        & p {
+          padding-bottom: 3rem;
+        }
+      }
+
+      @include mx.devices(tablet) {
+        grid-template-columns: repeat(2, 1fr);
+      }
 
       &__img {
         // text-align: end;
@@ -130,6 +142,18 @@
       display: grid;
       column-gap: 5rem;
       grid-template-columns: repeat(2, 1fr);
+
+      @include mx.devices(mobile) {
+        grid-template-columns: repeat(1, 1fr);
+
+        & p {
+          // padding-top: 2rem;
+        }
+      }
+
+      @include mx.devices(tablet) {
+        grid-template-columns: repeat(2, 1fr);
+      }
 
       &__img {
         // text-align: left;

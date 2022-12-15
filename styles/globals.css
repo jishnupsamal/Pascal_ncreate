@@ -32,21 +32,3 @@ a:hover {
   color: #307351;
   transition: color 500ms ease-in-out;
 }
-
-/* 
-
-
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-} */

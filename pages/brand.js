@@ -8,7 +8,7 @@ const brand = () => {
     <Layout title='Brand'>
         <div className={`${styles.brand}`}>
             <h1 className={`${styles.brand__title}`}>Brand</h1>
-            <SectionBrand title="Logo" src='/images/greycar.jpg'>
+            <SectionBrand title="Logo" src='/images/logo.jpeg'>
                 This logo represens the <em>Pascal</em> brand. It stands for creattivity and uniqueness.
             </SectionBrand>
 

@@ -27,7 +27,7 @@ export default function Home() {
           poster="images/logo.jpeg" 
         />
 
-        <Section title="Environment Friendly" align='right' img="/images/bluecar.jpg">
+        <Section title="Environment Friendly" align='right' img="/images/amazoncar.png">
           100% electric. {" "}
           Zero Carbon Emissions.
         </Section>

@@ -1,49 +1,27 @@
 @use "../abstracts/variables" as var;
 @use "../abstracts/mixins" as mx;
 
-.nav {
-  background-color: var.$primary-color;
-  padding: 1rem;
-  // position: fixed;
-  // top: 0;
-  // width: 100%;
-  margin-bottom: -2rem;
-  color: aliceblue;
-  font-family: "Abril Fatface", cursive;
+// .nav {
+//   background-color: var.$primary-color;
+//   padding: 1rem;
+//   margin-bottom: -2rem;
+//   color: aliceblue;
+//   font-family: "Abril Fatface", cursive;
 
-  &__brand {
-    font-size: 1.3rem;
-    font-weight: 900;
-  }
-
-//   @include mx.devices(mobile) {
+//   &__brand {
+//     font-size: 1.3rem;
+//     font-weight: 900;
+//   }
 //     &__items {
-//       &__hamburger_btn {
-//         margin-left: 65%;
-//       }
-//       &__links {
-//         visibility: collapse;
+//       display: grid;
+//       grid-template-columns: repeat(4, 1fr);
+//       grid-gap: 0 5rem;
+//       padding-top: 0.3rem;
+
+//       & a:hover {
+//         color: white;
 //       }
 //     }
 //   }
 
-//   @include mx.devices(tablet) {
-    &__items {
-    //   &__hamburger_btn {
-    //     display: none;
-    //   }
-    //   &__links {
-    //     visibility: visible;
-        
-    //   }
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-gap: 0 5rem;
-      padding-top: 0.3rem;
 
-      & a:hover {
-        color: white;
-      }
-    }
-  }
-// }

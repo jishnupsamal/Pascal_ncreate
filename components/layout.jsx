@@ -11,7 +11,7 @@ function Layout({children, title="ECars"}) {
     <div>
         <Head>
         <title>{`${title} - Pascal`}</title>
-        <link rel="icon" href="./favicon.ico" />
+        <link rel="icon" href="/images/logo.jpeg" />
         </Head>
         <NavBar />
         {/* <h1 className={`${styles.h1}`}>Layout</h1> */}
