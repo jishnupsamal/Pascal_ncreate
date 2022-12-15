@@ -21,7 +21,7 @@ const NavBar = () => {
               >
                 <Offcanvas.Header closeButton>
                   <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${false}`}>
-                    Offcanvas
+                    Pascal
                   </Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
