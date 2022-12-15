@@ -4,5 +4,22 @@
 .footer {
     background-color: scale-color($color: var.$secondary-color, $lightness: 10%);
     padding: 2rem;
+    border: 0 solid black;
+    border-top-right-radius: 5rem;
     color: white;
+
+    &__links {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    &__social {
+        @extend .footer__links;
+        & a {
+            padding: 0 1rem;
+        }
+        & a:hover {
+            color: var.$color1;
+        }
+    }
 }

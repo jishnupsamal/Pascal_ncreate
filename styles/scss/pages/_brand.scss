@@ -1,0 +1,11 @@
+@use '../abstracts/variables' as var;
+@use '../abstracts/mixins' as mx;
+
+.brand {
+    margin: 3rem 1rem;
+
+    &__title {
+        font-size: 3rem;
+        font-family: 'Abril Fatface', cursive;
+    }
+}

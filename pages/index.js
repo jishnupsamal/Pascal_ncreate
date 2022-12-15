@@ -15,17 +15,16 @@ export default function Home() {
       <div className={`${styles.h1}`}>
         <Hero title="Pascal" />
         <div id='main'></div>
-        <Section title="Stylish and Elegant" align='left' img="/images/greycar.jpg">
+        <Section title="Stylish and Elegant" align='left' img="/images/car_top.jpg">
           Stunning and attractive look. {' '} Designed by the World's Greatest Engineers for {' '}
           the people of the world.
         </Section>
 
         <Model
-          alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and 
-          National Air and Space Museum" 
-          src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
+          alt="Pascal WARP" 
+          src="/models/cars.glb"
           environment-image="https://modelviewer.dev/shared-assets/environments/moon_1k.hdr" 
-          poster="./vercel.svg" 
+          poster="images/logo.jpeg" 
         />
 
         <Section title="Environment Friendly" align='right' img="/images/bluecar.jpg">

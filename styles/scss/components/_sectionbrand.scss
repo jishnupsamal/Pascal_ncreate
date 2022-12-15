@@ -1,0 +1,72 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mx;
+
+.sectionbrand {
+  margin: 2rem 1rem;
+  //   border-top: 0.3rem solid var.$secondary-color;
+  border-bottom: 0.3rem solid var.$secondary-color;
+
+  &__text {
+    display: grid;
+
+    @include mx.devices(mobile) {
+      grid-template-columns: repeat(1, 1fr);
+      // grid-gap: 0 2rem;
+    }
+
+    @include mx.devices(tablet) {
+      padding: 1rem;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 0 2rem;
+    }
+
+    margin: 2rem 0;
+
+    &__title {
+      font-size: 2rem;
+    }
+
+    &__description {
+      @include mx.devices(mobile) {
+        padding-top: 1rem;
+      }
+    }
+  }
+
+  &__img {
+    overflow: hidden;
+    margin: 1rem 0;
+    width: 100%;
+    display: inline-block;
+    border-radius: 1rem;
+
+    @include mx.devices(mobile) {
+      width: 100%;
+    }
+    @include mx.devices(tablet) {
+      margin-left: 10vw;
+      width: 80%;
+    }
+
+    & img {
+      width: 100%;
+      max-width: 100%;
+      max-height: 70vh;
+      min-height: 70vh;
+      object-fit: cover;
+
+      &:hover {
+        transform: scale(1.2, 1.2);
+        box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.79);
+        transition: transform 2s ease-in-out, box-shadow 2s ease-in-out;
+      }
+
+      //   @include mx.devices(mobile) {
+      //     width: 100%;
+      //   }
+      //   @include mx.devices(tablet) {
+      //     width: 80%;
+      //   }
+    }
+  }
+}

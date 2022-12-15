@@ -10,13 +10,16 @@
 @use "./scss/components/button";
 @use './scss/components/icons';
 @use './scss/components/model';
+@use './scss/components/sectionbrand';
 
 // Layout
 @use "./scss/layout/header";
 @use "./scss/layout/section";
 @use './scss/layout/footer';
+@use './scss/layout/navbar';
 
 // Pages
+@use './scss/pages/brand';
 
 // Themes
 
