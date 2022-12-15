@@ -9,7 +9,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 
 const NavBar = () => {
   return (
-      <div>
+      <div className={`${styles.nav}`}>
           <Navbar key={false} bg="light" expand={false} className="mb-3">
             <Container fluid>
               <Navbar.Brand href="#">Pascal</Navbar.Brand>

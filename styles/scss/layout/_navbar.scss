@@ -1,12 +1,12 @@
 @use "../abstracts/variables" as var;
 @use "../abstracts/mixins" as mx;
 
-// .nav {
+.nav {
 //   background-color: var.$primary-color;
 //   padding: 1rem;
-//   margin-bottom: -2rem;
+  margin-bottom: -2rem;
 //   color: aliceblue;
-//   font-family: "Abril Fatface", cursive;
+  font-family: "Abril Fatface", cursive;
 
 //   &__brand {
 //     font-size: 1.3rem;
@@ -22,6 +22,6 @@
 //         color: white;
 //       }
 //     }
-//   }
+  }
 
 
